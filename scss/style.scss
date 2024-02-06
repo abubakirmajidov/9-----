@@ -1,0 +1,29 @@
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v15-latin-regular.woff2") format("woff2");
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+table {
+  h1 {
+    font-size: 29px;
+    margin-bottom: -10px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 12px;
+    width: 400px;
+  }
+  tr {
+    text-align: center;
+    td {
+      width: 100px;
+    }
+  }
+}
